@@ -1,4 +1,4 @@
-package-project
+Project detection
 ===============
 
-Project detection and samples
+This package contains the project types and the associated detectors. It also contains samples for each project types.

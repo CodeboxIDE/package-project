@@ -1,0 +1,14 @@
+{
+    "name": "project",
+    "version": "0.0.0",
+    "main": "src/index",
+    "node": "node/index",
+    "description": "Project detection",
+    "engines": {
+        "codebox": ">=1.0.0"
+    },
+    "dependencies": {
+        "lodash": "2.4.1",
+        "q": "1.0.1"
+    }
+}
