@@ -1,8 +1,8 @@
 {
     "name": "project",
     "version": "0.0.0",
-    "main": "src/index",
-    "node": "node/index",
+    "browser": "./src/index.js",
+    "main": "./node/index.js",
     "description": "Project detection",
     "engines": {
         "codebox": ">=1.0.0"
