@@ -46,7 +46,6 @@ var supports = function(projectDir, projectType) {
     // Detection script
     return utils.execFile('/bin/bash', [projectType.detector, projectDir])
     .fail(function(err) {
-        console.log("error", err);
         throw err;
     })
     .then(
