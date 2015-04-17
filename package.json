@@ -5,7 +5,7 @@
     "main": "./node/index.js",
     "description": "Project detection",
     "engines": {
-        "codebox": ">=1.0.0"
+        "codebox": ">=1.0.0-alpha"
     },
     "dependencies": {
         "lodash": "2.4.1",
