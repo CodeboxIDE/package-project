@@ -54,7 +54,7 @@ cat  <<EOF > "${FOLDER}/${CONF}"
 ServerName localhost
 Listen ${PORT}
 PidFile ${PID_FILE}
-LockFile ${LOCK_FILE}
+Mutex file:${FOLDER} default
 
 # Start only one server
 StartServers 1
